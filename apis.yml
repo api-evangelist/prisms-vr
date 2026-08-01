@@ -1,7 +1,28 @@
 aid: prisms-vr
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/prisms-vr.png
 name: Prisms VR
-description: Prisms VR is a company surfaced as a portfolio company of a16z and added to the API Evangelist
-  network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+description: >-
+  Prisms VR (Prisms) is an educational technology company building what it calls
+  the world's first spatial learning platform, where students learn core math,
+  science, and other subjects by abstracting up from immersive, first-person
+  physical experiences delivered in virtual reality. Founded by MIT
+  engineer-turned-educator Anurupa Ganguly, the teacher-facing platform uses
+  kinesthetic, embodied learning to help students grasp abstract concepts and
+  aims to develop curious, resilient thinkers. Prisms is an a16z portfolio
+  company; it was added to the API Evangelist network as a lead and profiled
+  through the enrichment pipeline. As of this pass the company publishes no
+  public developer API, SDK, or developer portal surface.
 url: https://raw.githubusercontent.com/api-evangelist/prisms-vr/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -11,12 +32,37 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-20'
 tags:
 - Company
+- Education
+- EdTech
+- Virtual Reality
+- Spatial Learning
+- Immersive Learning
+- Mathematics
+- Science
 apis: []
+common:
+- type: DomainSecurity
+  url: security/prisms-vr-domain-security.yml
+- type: Website
+  url: https://www.prismsvr.com
+- type: Blog
+  url: https://www.prismsvr.com/blog
+- type: Login
+  url: https://app.prismsvr.com
+- type: TermsOfService
+  url: https://www.prismsvr.com/terms-of-service
+- type: PrivacyPolicy
+  url: https://www.prismsvr.com/privacy-policy
 maintainers:
 - FN: Kin Lane
   email: kin@apievangelist.com
 - FN: APIs.json
   email: info@apis.io
+x-enrichment:
+  date: '2026-07-20'
+  status: minimal
+  artifacts_added: 1
+  pass: local-v1
