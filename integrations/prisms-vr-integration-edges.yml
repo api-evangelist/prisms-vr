@@ -1,0 +1,43 @@
+edges:
+- partner_name: 1EdTech
+  partner: null
+  type: contract
+  channel: standard-directory
+  relationship: standard-participant
+  direction: partner-built
+  evidence: https://site.imsglobal.org/certifications
+  category: 1EdTech certified products
+  contract_reference:
+    register: 1EdTech certified product directory (TrustEd Apps)
+    spec_file: null
+    standard: 1EdTech
+    role: Affiliate Member
+    registered_name: Prisms of Reality, Inc
+    matched_domain: prismsvr.com
+    matched_by: domain+verified
+    standards:
+    - LTI Advantage
+    - Learning Tools Interoperability (LTI) v1.3
+    - OneRoster 1.2
+    certified_products:
+    - product: Prisms of Reality Web-Based Dashboard
+      version: v4.7.2
+      standards:
+      - LTI Advantage
+      - Learning Tools Interoperability (LTI) v1.3
+      - OneRoster 1.2
+      implementation:
+      - 'Extension: LTI Names and Role Provisioning Services 2.0'
+      - 'Rostering: REST Data Consumer Rostering Core'
+      - 'Type: Tool'
+      attributes:
+      - Certified Product
+      - Vetted
+      lapsed: false
+      url: https://site.imsglobal.org/certifications/prisms-of-reality-inc/prisms-of-reality-web-based-dashboard/v472
+    detected_by: sweep-edtech.py
+    detected: '2026-10-14'
+generated: '2026-10-14'
+method: searched
+checked:
+- https://site.imsglobal.org/certifications
